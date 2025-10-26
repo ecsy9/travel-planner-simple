@@ -6,7 +6,9 @@ Live Demo: travel-planner-simple.elinorcsy.workers.dev
 Features
 
 Real-time chat with AI-generated travel tips and plans.
+
 Persistent conversation history.
+
 Edge-deployed for fast global access.
 
 Tech
@@ -16,9 +18,12 @@ Vanilla JS frontend.
 
 Setup
 
-Clone: git clone https://github.com/YOUR_USERNAME/travel-planner-agent.git && cd travel-planner-agent
+Clone: git clone https://github.com/YOUR_USERNAME/travel-planner-agent.git && cd travel-planner-agent 
+
 Install: npm install
+
 Dev: npx wrangler dev --remote (open http://localhost:8787)
+
 Deploy: npx wrangler deploy
 
 Usage
