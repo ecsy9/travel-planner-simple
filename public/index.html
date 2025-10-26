@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <style>
+    #chat-container { height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; }
+    .message { margin: 10px 0; padding: 8px; border-radius: 5px; }
+    .user { background: #e3f2fd; text-align: right; }
+    .assistant { background: #f3e5f5; }
+    #user-input { width: 70%; padding: 10px; }
+    #send-btn { padding: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Travel Planner Chat</h1>
+  <div id="chat-container"></div>
+  <input type="text" id="user-input" placeholder="Ask about a trip... (e.g., Plan a weekend in Tokyo)">
+  <button id="send-btn">Send</button>
+  <script src="/app.js"></script>
+</body>
+</html>
