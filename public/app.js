@@ -25,7 +25,7 @@ async function sendMessage() {
   const streamTarget = chatContainer.lastChild;
 
   try {
-    const response = await fetch("/agents/travel-planner-agent/default/chat", {
+    const response = await fetch("/agents/travel-planner-agent/default", {
       method: "POST",
       body: JSON.stringify({ messages: [{ role: "user", content: text }] }),
       headers: { "Content-Type": "application/json" },

@@ -19,10 +19,16 @@
       }
     ]
   },
+  
   "migrations": [
     {
       "tag": "v1",
       "new_sqlite_classes": ["TravelPlannerAgent"]
     }
-  ]
+  ],
+  "observability": {
+    "logs": {
+      "enabled": true,
+    }
+  }
 }
